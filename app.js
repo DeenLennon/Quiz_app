@@ -1,3 +1,4 @@
+//the questions array
 const quizData = [
   {
     question: "Who is the current VC of Uniben?",
@@ -104,7 +105,7 @@ const quizData = [
     correct: "d",
   },
 ];
-
+//the selection of different section of the document
 const answerEls = document.querySelectorAll(".answer");
 const quiz = document.getElementById("quiz");
 const questionEl = document.getElementById("question");
